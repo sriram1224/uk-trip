@@ -5,5 +5,10 @@
     .Hamburger{
         display: inline;
     }
-    
+    .Top_Part{
+        padding: 10px;
+}  .logo{
+    width: 4em;
+    height: 2em;
+   }
 }
