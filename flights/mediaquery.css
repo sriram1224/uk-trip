@@ -1,0 +1,9 @@
+@media screen and (max-width:375px) {
+    .nav,.right_section{
+        display: none;
+    }
+    .Hamburger{
+        display: inline;
+    }
+    
+}
