@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37.8px" height="37.275px" viewBox="0 0 37.8 37.275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>USP / 5_Rewards / light</title>
+    <defs>
+        <linearGradient x1="40.331472%" y1="40.7883191%" x2="118.219624%" y2="112.384507%" id="linearGradient-1">
+            <stop stop-color="#FFB400" offset="0%"></stop>
+            <stop stop-color="#FF6F00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="未登录" transform="translate(-398.1, -550.625)">
+            <g id="编组-63" transform="translate(0, 482)">
+                <g id="编组-38备份" transform="translate(380, 0)">
+                    <g id="USP-/-5_Rewards-/-light" transform="translate(16, 66)">
+                        <rect id="矩形" x="0" y="0" width="42" height="42"></rect>
+                        <path d="M32.4821919,6.77296463 C36.9838292,10.1220654 39.9,15.4829786 39.9,21.525 C39.9,31.6732323 31.6732323,39.9 21.525,39.9 C16.2628805,39.9 11.5173832,37.6880778 8.16756462,34.1432901 C10.7545895,35.4736173 13.6895474,36.225 16.8,36.225 C27.2381818,36.225 35.7,27.7631818 35.7,17.325 C35.7,13.4674111 34.544298,9.87975084 32.560245,6.88937028 Z" id="形状结合" fill="#06AEBD"></path>
+                        <g id="Coins备份-2" transform="translate(2.1, 2.625)" fill="url(#linearGradient-1)">
+                            <path d="M14.7,0 C22.8185858,0 29.4,6.58141418 29.4,14.7 C29.4,22.8185858 22.8185858,29.4 14.7,29.4 C6.58141418,29.4 0,22.8185858 0,14.7 C0,6.58141418 6.58141418,0 14.7,0 Z M21.2896552,8.11034483 L8.11034483,8.11034483 L8.11034483,11.6586207 L12.9253448,11.6583448 L12.9258621,21.7965517 L16.4741379,21.7965517 L16.4733448,11.6583448 L21.2896552,11.6586207 L21.2896552,8.11034483 Z" id="形状结合"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
