@@ -1,0 +1,80 @@
+@media screen and (max-width: 1064px) {
+    .header .header-top .header-left .search {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .search-box .options-container ul li{
+        display: flex;
+    flex-direction: column;
+    }
+    
+  }
+
+  /* @media screen and (max-width: 2400px){     
+    body {  
+      background-image:url(https://ak-d.tripcdn.com/images/05E3s12000cmarxu50A1C.webp);
+    }  
+  }
+  
+  @media screen and (max-width: 1920px){     
+    body {  
+      background-image:url(https://ak-d.tripcdn.com/images/05E3s12000cmarxu50A1C.webp);
+    }  
+  } */
+
+  @media screen and (min-width: 900px){ 
+    .hotel-box { 
+      max-width: 1160px;
+    } 
+  }
+
+  @media screen and (min-width: 900px){ 
+    .hotel-box.isSearchBarVersionB .ul-block  { 
+      width: 100%; 
+      
+      display: flex; 
+      flex-wrap: wrap;
+    } 
+  }
+
+  @media screen and (min-width: 900px){ 
+    .hotel-box .isSearchBarVersionB .ul-block .li-item  { 
+      height: 100%; 
+      border-radius: 4px 4px 4px 4px; 
+      border: 1px solid #dadfe6;
+    } 
+
+  }
+
+
+
+  @media screen and (min-width: 900px){ 
+    .hotel-box .isSearchBarVersionB .ul-block .li-item-btn  { 
+      width: -moz-fit-content; 
+      width: fit-content; 
+      border: none!important;
+    } 
+  }
+
+
+  @media screen and (min-width: 900px){ 
+    .hotel-box { 
+      max-width: 1160px;
+    } 
+  }
+  @media (max-width: 1330px) {
+    .main-2 .online-advertize-item{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1000px){ 
+    .main-2 .online-advertize-primary .online-item{ 
+      align-content: center;  
+
+    } 
+  }
+
+
+  

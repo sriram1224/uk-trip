@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="HomeResponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body class="bg">
     <nav><div class="header">
         <div class="header-top">
         <div class="header-left">
             <img src="./assests/logo.webp" alt="logo" class="logo">
             <div class="search">
             <form >
-                
+
             <input type="search" placeholder="Destination,attraction,hotel,etc">
             <button><i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -84,121 +86,356 @@
     </nav>
     <main>
         <section class="A">
-            
-                <div class="trip-sections">
-                    <div class="trip-header">
-                        Your Trip Starts Here
+            <div class="trip-sections">
+                <div class="trip-header">
+                    Your Trip Starts Here
+                </div>
+                <div class="trip-elements">
+                    <div class="sub-elements">
+                    
+                        <img src="./assests/securepayment.png" alt="secure">
+                        <p>Secure Payment</p>
+                        <span class="line"></span>
                     </div>
-                    <div class="trip-elements">
-                        <div class="sub-elements">
-                        
-                            <img src="./assests/securepayment.png" alt="secure">
-                            <p>Secure Payment</p>
-                            <span class="line"></span>
-                        </div>
-                        
-                        <span class="seperate"></span>
-                        <div class="sub-elements">
-                        <img src="./assests/24x7.png" alt="24x7">
-                            <p>We are here 24x7 </p>
-                            <span class="line"></span>
-                        </div>
-                        <span class="seperate"></span>
-                        <div class="sub-elements">
-                            <img src="./assests/award.png" alt="award">
-                            <p>Award-winning</p>
-                            <span class="line"></span>
-                        </div>
+                    
+                    <span class="seperate"></span>
+                    <div class="sub-elements">
+                    <img src="./assests/24x7.png" alt="24x7">
+                        <p>We are here 24x7 </p>
+                        <span class="line"></span>
+                    </div>
+                    <span class="seperate"></span>
+                    <div class="sub-elements">
+                        <img src="./assests/award.png" alt="award">
+                        <p>Award-winning</p>
+                        <span class="line"></span>
                     </div>
                 </div>
-                <div class="search-box">
-                    <div class="top-element">
-                    <div class="options-container">
-
-                        <ul>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    flightsmode
-                                    </span>
-                                    <p>Flights</p>
-
-                            </li>
-                            <li class="hotel">
+            </div>
+            <div class="option-container " >
+                <div class="option-1 option-a ">
+                  <ul class="option-tabs">
+                    <li class="option-item">
                         <span class="material-symbols-outlined">
-                        location_city</span><p>Hotels</p>
-
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
+                            flightsmode
+                            </span>
+                      <span class="tab-name ">
+                        Flights
+                      </span>
+                    </li>
+                    <li class="option-item  is-active ">
+                        <span class="material-symbols-outlined">
+                            location_city</span>
+                      <span class="tab-name ">
+                        Hotels
+                      </span>
+                    </li>
+                    <li class="option-item  ">
+                      <span class="material-symbols-outlined">
                                     train
                                     </span>
-                                    <p>Trins</p>
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    directions_car
-                                    </span>
-                                    <p>Cars</p>
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    attractions
-                                    </span>
-                                    <p>Attractions & Tour</p>
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    flights_and_hotels
-                                    </span>
-                                    <p>Flights + Hotels</p>
-                            </li>
-
-                        </ul>
-                    </div>
+                      <span class="tab-name">
+                        Trains
+                      </span>
+                    </li>
+                    <li class="option-item  ">
+                        <span class="material-symbols-outlined">
+                            directions_car
+                            </span>
+                      <span class="tab-name ">
+                        Cars
+                      </span>
+                    </li>
+                    <li class="option-item  ">
+                        <span class="material-symbols-outlined">
+                            attractions
+                            </span>
+                      <span class="tab-name  ">
+                        Attractions &amp; Tours
+                      </span>
+                    </li>
+                    <li class="option-item ">
+                        <span class="material-symbols-outlined">
+                            flights_and_hotels
+                            </span>
+                      <span class="tab-name ">
+                        Flight + Hotel
+                      </span>
+                    </li>
+              
+                  </ul>
                 </div>
-                    <div class="search-items">
-                        <div class="s1">
-                            <p>Destination/Hotel Name</p>
-                            <input type="text" value="City,airport,region,landmark or hotel name">
-
-                        </div>
-                        <div class="s2">
-                            <div class="check">
-                                <p>Check-in</p>
-                                <p>
-                                    Sun,3 Dec
+                
+                  <div id="searchboxicon">
+                    <div class="search-box-icon style-2" id="style-2">
+                      <div class="hotel-box isSearchBarVersionB">
+                        <ul class="ul-block">
+                          <li class="li-item li-item-destination">
+                            <div class="search-container">
+                              <div class="search-box" id="search-box-destination">
+                                <label class="label" for="hotels-destination">
+                                  Destination/Hotel Name
+                                </label>
+                                <div class="inputBarWidth">
+                                  <input type="text" id="hotels-destination" class="show-hightlight" autocomplete="off" placeholder="City, airport, region, landmark or hotel name" value="">
+                                  <div id="input-length-cacl">
+                                    City, airport, region, landmark or hotel name
+                                  </div>
+                                </div>
+                                <label for="hotels-destinationV8" class="searchBarVersionBLabel" id="versionBValueLabel">
+                                </label>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="li-item li-item-calendar">
+                            <div class="calendar-container">
+                              <div class="time-tab checkin">
+                                <span class="in label">
+                                  Check-in
+                                </span>
+                                <input type="text" class="focus-input show-hightlight" readonly="" value="Sun, 3 Dec">
+                              </div>
+                              <div class="nights">
+                                <span>
+                                  1 night
+                                </span>
+                              </div>
+                              <div class="time-tab checkout">
+                                <span class="out label">
+                                  Check-out
+                                </span>
+                                <input type="text" class="focus-input show-hightlight out-time" readonly="" value="Mon, 4 Dec">
+                              </div>
+                              <div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="li-item li-item-roomguest">
+                            <div class="room-guest-container">
+                              <div class="room-guest">
+                                <span class="label">
+                                  Rooms and Guests
+                                </span>
+                                <p class="info show-hightlight">
+                                  <span>
+                                    1 room
+                                  </span>
+                                  , 
+                                  <span>
+                                    2 adults
+                                  </span>
+                                  , 
+                                  <span>
+                                    0 children
+                                  </span>
+                                  
                                 </p>
-                                
+                                <span class="material-symbols-outlined">
+                                    arrow_drop_down
+                                    </span>
+                              </div>
+                              <div class="choice style-JPr7A" id="style-JPr7A">
+                                <div class="choice-content">
+                                  <div class="child-kid">
+                                    <p class="label">
+                                      <span class="title">
+                                        Rooms
+                                      </span>
+                                      <span class="sub-title">
+                                      </span>
+                                    </p>
+                                    <div class="actions">
+                                      <span class="icon-btn disabled">
+                                        <i class="smarticon u-icon-ic_minus action-btn">
+                                        </i>
+                                      </span>
+                                      <span class="count">
+                                        1
+                                      </span>
+                                      <span class="icon-btn">
+                                        <i class="smarticon u-icon-ic_plus action-btn">
+                                        </i>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="child-kid">
+                                    <p class="label">
+                                      <span class="title">
+                                        Adults
+                                      </span>
+                                      <span class="sub-title">
+                                        18+ yrs
+                                      </span>
+                                    </p>
+                                    <div class="actions">
+                                      <span class="icon-btn">
+                                        <i class="smarticon u-icon-ic_minus action-btn">
+                                        </i>
+                                      </span>
+                                      <span class="count">
+                                        2
+                                      </span>
+                                      <span class="icon-btn">
+                                        <i class="smarticon u-icon-ic_plus action-btn">
+                                        </i>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="child-kid">
+                                    <p class="label">
+                                      <span class="title">
+                                        Children
+                                      </span>
+                                      <span class="sub-title">
+                                        0-17 yrs
+                                      </span>
+                                    </p>
+                                    <div class="actions">
+                                      <span class="icon-btn disabled">
+                                        <i class="smarticon u-icon-ic_minus action-btn">
+                                        </i>
+                                      </span>
+                                      <span class="count">
+                                        0
+                                      </span>
+                                      <span class="icon-btn">
+                                        <i class="smarticon u-icon-ic_plus action-btn">
+                                        </i>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="done">
+                                  <span>
+                                    Done
+                                  </span>
+                                </div>
+                              </div>
                             </div>
-                            <div class="night">
-                                    <p>1 night</p>
-                            </div>
-                            <div class="checkout">
-                                <p></p>Check-out </p>
-                                <p>Mon,4 Dec</p>
-
-                            </div>
-
-                        </div>
-                        <div class="s3">
-                            <p>Rooms and Guests</p>
-                            <p>1 room, 2 childres, 3 adults</p>
-                        </div>
-                        <button class="but"> 
-                            <span class="material-symbols-outlined">
+                          </li>
+                          <li class="li-item li-item-btn">
+                            <div class="search-btn-wrap">
+                              <p class="search-block">
+                                <span class="material-symbols-outlined">
                                 search
                                 </span>
-                                <p>Search</p>
-                        </button>
 
+                                </i>
+                                <span>
+                                  Search
+                                </span>
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="sub-choice">
+                          <div class="travel-container style-oBjjo" id="style-oBjjo">
+                            <div class="label">
+                                <input type="checkbox">
+                              <span class="tips">
+                                I'm travelling for work
+                              </span>
+                            </div>
+                            <span class="material-symbols-outlined tip">
+                                info
+                                </span>
+                            <div class="business style-xEHGV" id="style-xEHGV">
+                              <i class="smarticon u-icon-ic_new_fa_business icon-business">
+                              </i>
+                              <p>
+                                If you select this option, we'll highlight hotels and amenities popular with business travellers.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="star-rate-container">
+                            <span class="star-rate">
+                              Star Rating
+                            </span>
+                            <span class="rate">
+                              <em>
+                                ≤ 2
+                              </em>
+                              <span class="material-symbols-outlined ">
+                                star
+                                </span>
+                            </span>
+                            <span class="rate">
+                              <em>
+                                3
+                              </em>
+                              <span class="material-symbols-outlined ">
+                                star
+                                </span>
+                            </span>
+                            <span class="rate">
+                              <em>
+                                4
+                              </em>
+                              <span class="material-symbols-outlined ">
+                                star
+                                </span>
+                            </span>
+                            <span class="rate">
+                              <em>
+                                5
+                              </em>
+                              <span class="material-symbols-outlined ">
+                                star
+                                </span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="rating-elements">
-                        
-                    </div>
-
+                  </div>
+                
+              </div>
+                
+        </section>
+        <section class="main-2">
+           
+              <div id="deals" class="online-advertize-primary">
+                <div class="online-item">
+                  <a class="online-item-link" href="#">
+                    <img class="online-advertize-item-image" src="./assests/photo-1.webp"  alt="Up to £10 Off EVERY Flight You Book">
+                  </a>
                 </div>
-        </section> <p></p>
+                <div class="marquee-single marquee-rounded" dir="">
+                  
+                  
+                  <div class="blocks-window style-l1" id="style-l1">
+                    
+                        <div class="online-advertize-item">
+                          <a class="online-item-link" href="#">
+                            <img class="online-advertize-item-image" src="./assests/photo-3.webp">
+                        </div>
+                      </div>
+                   
+                </div>
+              </div>
+
+              
+            
+            
+              
+        </section>
+         
     </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+ 
+ 
+ <script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+ </script>
+ 
+ 
+ 
+  </body>
 </html>
