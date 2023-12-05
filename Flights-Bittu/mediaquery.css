@@ -4,6 +4,7 @@
     }
     .Hamburger{
         display: inline;
+        
     }
     .Top_Part{
         padding: 10px;
@@ -11,4 +12,138 @@
     width: 4em;
     height: 2em;
    }
+   .Bottom_Part h1{
+    font-size: 25px;
+   }
+   .Box_section1{
+    flex-direction: column;
+   }
+   .header_section1{
+    flex-direction: column;
+
+   }
+   .subbox{
+    width: auto;
+    border:1px solid#dadfe6;
+    border-radius: 8px; 
+  }
+  .p1,.p2{
+    font-size: 13px;
+  }
+  .left_part_section1 img{
+       width: 80px;
+       height: 80px;
+  }
+  .left_part_section1 h1{
+    font-size: 20px;
+  }
+  .right_part_section1{
+    font-size:15px;
+  }
+  .left_part_section1{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .section2 h1{
+    font-size: 20px;
+  }
+  .box_section2{
+    flex-direction: column;
+    gap: 8px;
+  }
+  .bg-img-section2,.bg-map-section2{
+      width: 100%;
+      height: 300px;
+  }
+  .bg-map-section2 button{
+    top: 230px;
+  }
+  .match{
+    flex-direction: column;
+  }
+  .qrcode{
+    display: none;
+  }
+  .mobile_section3{
+    gap: 24px;
+  }
+  .button_sec3{
+    padding: 5px;
+  }
+  .img_section4{
+    flex-wrap: wrap;
+  }
+  .section4 h1{
+    font-size: 20px;
+  }
+  .section6 h1{
+    font-size: 20px;
+  }
+  .content_b0x_section6{
+    padding: 12px;
+    height: max-content;
+  }
+  .para_sec6{
+    font-size: 13px;
+  }
+  .p_section6{
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .list_section7{
+    display: none;
+  }
+  .img_li_box1_first_footer_part{
+    width: 20px;
+    height: 20px;
+  }
+  .first_footer_part{
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .box1_first_footer_part{
+       width: max-content;
+  }
+  .box2_first_footer_part{
+     width: auto;
+  }
+  .box3_first_footer_part{
+    width:auto;
+    margin-left: -40px;
+  }
+  .payment_method{
+    width: 140px;
+    margin-left: -30px;
+  }
+  .our_partners{
+    margin-left: -30px;
+  }
+  .part1_second_footer_part p{
+    font-size: 12px;
+  }
+  .part1_second_footer_part img{
+    width: 30px;
+    height: 30px;
+  }
+  .part2_second_footer_part p{
+    font-size: 12px;
+  }
+  .part2_second_footer_part img{
+    width: 50px;
+    height: 30px;
+  }
+  .third_footer_part p{
+    font-size: 12px;
+    text-align: center;
+  }
+  .fourth_footer_part p{
+    font-size: 10px;
+  }
+  .section5 h1{
+    font-size: 20px;
+  }
+  .sub_container_section5 p{
+    font-size: 14px;
+  }
 }

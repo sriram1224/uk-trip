@@ -19,7 +19,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     
 }
 .Top_Part{
@@ -42,7 +42,7 @@
 .nav{
     width: 47%;
     /* border: 2px solid gold; */
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     display: flex;
     overflow-x: hidden;
@@ -116,7 +116,7 @@
 }
 .Bottom_Part{
     width: auto;
-    height: 63%;
+    height: max-content;
     /* border: 2px solid red; */
 }
 .Bottom_Part h1{
@@ -143,8 +143,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .radio_check_buttons{
     display: flex;
@@ -161,6 +160,7 @@
 .searchbox_Bottom_part{
     display: flex;
     justify-content: space-evenly;
+    
     
 }
 .searchbox_Bottom_part input{
@@ -181,14 +181,17 @@
 
 }
 .second_searchbox_Bottom_part{
+    height: min-content;
     display: flex;
     flex-direction: row-reverse;
     gap: 6px;
-    padding-right: 10px;
+    /* border: 2px solid red; */
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 .second_searchbox_Bottom_part button{
-    width: 15%;
-    padding: 15px;
+    /* width: 15%; */
+    padding: 15px 50px 15px 50px;
     height: 60px;
     border-radius: 5px;
 }
@@ -215,8 +218,8 @@
     width: 100%;
     height: auto;
     border: 1px solid white;
-    border-radius: 25px 25px 0px 0px;
-    margin-top: -20px;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: -8px;
     background-color: white;
     padding-bottom: 60px;
     overflow: hidden;
@@ -248,6 +251,7 @@
 .Box_section1{
     display: flex;
     justify-content: space-between;
+    /* border: 2px solid red; */
 }
 .right_part_section1{
     color: #0f294d;
@@ -258,11 +262,12 @@
     cursor: pointer;
 }
 .subbox{
-    width: 24%;
-    height: 31vh;
+    width: 270px;
+    /* height: 200px; */
     border:1px solid#dadfe6;
     padding: 15px;
     border-radius: 8px; 
+    /* overflow: hidden; */
 }
 .p1{
     font-size: 18px;
@@ -318,8 +323,8 @@
 }
 .bg-map-section2 button{
     position: absolute;
-    top: 90%;
-    left: 32%;
+    top: 540px;
+    left: 110px;
     padding: 10px;
     background-color: #3264ff;
     font-size: 16px;
