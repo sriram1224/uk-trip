@@ -1053,10 +1053,13 @@ p {
     top: 30px;  
 }  
 .main-2{
+    position: relative;
+    left: 0;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgb(255, 255, 255);
     padding: 1rem 10rem;
+    width: 100%;
 
 }
 .main-2 .A-a .promotion{
@@ -1234,7 +1237,7 @@ a {
     display: flex;
 
         margin: auto; 
-        width: 1160px;
+    width: 100%;
     
 }
 
@@ -1272,7 +1275,9 @@ a {
     transition: all .8s;
 } 
 
-
+.home-inner{
+    margin-top: 80px;
+}
 
 .marquee-single .blocks-window .blocks-belt .block-con  { 
     display: inline-block; 
@@ -1345,10 +1350,7 @@ a {
 
 
 
-.home-inner { 
-    margin: auto; 
-    width: 1160px;
-}  
+  
 
 .recommended-module { 
     padding: 0; 
@@ -1473,6 +1475,7 @@ a {
 
 .new-list { 
     display: flex;
+    width: 100%;
 } 
 
 .module-usp-container .module-usp-item .module-usp-text-icon .module-text { 
@@ -1513,20 +1516,12 @@ a {
 } 
 
 .new-list .l-tile { 
-    display: block; 
+    display: flex; 
     padding: 0 16px 0 0; 
     box-sizing: content-box;
 } 
+   
 
-@media screen and (min-width: 1161px){ 
-  .new-list .l-tile { 
-    width: calc(25% - 12px);
-  } 
-
-  .new-list .l-tile__item:nth-child(n + 4)  { 
-    display: none;
-  } 
-}     
 
 a { 
     color: #333; 
@@ -1548,12 +1543,7 @@ a {
     transform: translateZ(0);
 } 
 
-@media screen and (min-width: 1161px){ 
-  .new-list .recommend-card  { 
-    width: calc(25% - 12px);
-  } 
-  
-}     
+    
 
 .recommend-card:hover { 
     box-shadow: 0 12px 24px 0 rgba(15,41,77,.12);
@@ -1647,13 +1637,25 @@ a {
     color: #fff; 
     text-align: left;
 } 
+.recommend-card .rmmc-content-2 { 
+    margin-top: auto; 
+    position: relative; 
+    z-index: 2; 
+    padding: 28px 16px 16px; 
+    color: #fff; 
+    text-align: left;
+} 
 
 .recommend-card.more-card-hotels .rmmc-content  { 
     background: linear-gradient(180deg,transparent,#5a9aa5 48px,#5a9aa5);
 } 
+.home-2 { 
+    background: linear-gradient(180deg,transparent,rgba(93,191,188,.6) 48px,#5dbfbc);
+} 
 
 .hotel-item-image { 
     position: relative;
+    
 } 
 
 .new-theme .hotel-item-content  { 
@@ -1664,6 +1666,18 @@ a {
 } 
 
 .recommend-card .rmmc-content .rmmc-content-text  { 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 24px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    line-clamp: 3; 
+    -webkit-line-clamp: 3; 
+    word-break: break-word;
+} 
+recommend-card .rmmc-content-2 .rmmc-content-text  { 
     font-size: 18px; 
     font-weight: 700; 
     line-height: 24px; 
@@ -1692,8 +1706,27 @@ a {
     padding: 0 8px; 
     transition: background-color .2s;
 } 
+.recommend-card .rmmc-content-2 .rmmc-content-button  { 
+    margin-top: 16px; 
+    height: 38px; 
+    line-height: 38px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    background-color: #3264ff; 
+    border-radius: 4px; 
+    text-align: center; 
+    cursor: pointer; 
+    padding: 0 8px; 
+    transition: background-color .2s;
+} 
 
 .recommend-card .rmmc-content .rmmc-content-button:hover { 
+    background-color: #264cc2;
+} 
+.recommend-card .rmmc-content-2 .rmmc-content-button:hover { 
     background-color: #264cc2;
 } 
 
@@ -1848,6 +1881,7 @@ a {
 } 
 .new-list .new-2{
     display: flex;
+    position: relative;
 }
 
 .c-hot-hotel-item-v2 .o-price  { 
@@ -1908,3 +1942,4 @@ a {
 #style-q5mc7.style-q5mc7 {  
    background-image: url("https://ak-d.tripcdn.com/images/220413000000ugq7t95FA_R_550_412_R5_D.jpg");  
 }  
+

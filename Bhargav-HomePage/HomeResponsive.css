@@ -64,11 +64,7 @@
       max-width: 1160px;
     } 
   }
-  @media (max-width: 1330px) {
-    .main-2 .online-advertize-item{
-      display: none;
-    }
-  }
+  
   @media screen and (min-width: 1000px){ 
     .main-2 .online-advertize-primary .online-item{ 
       align-content: center;  
