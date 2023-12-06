@@ -1,0 +1,59 @@
+
+
+.m-seo-footer { 
+    font-size: 12px; 
+    padding: 40px 0; 
+    background-color: #fff;
+} 
+
+.m-seo-footer__inner { 
+    width: 1160px; 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+h3 { 
+    margin: 0;
+} 
+
+.m-seo-footer__tit { 
+    color: #666; 
+    margin: 0 0 8px; 
+    font-size: 12px;
+} 
+
+.m-seo-footer h3  { 
+    color: #666; 
+    margin: 0 0 8px; 
+    font-size: 12px;
+} 
+
+.m-seo-footer__cnt { 
+    color: #666; 
+    margin-bottom: 20px;
+} 
+
+p { 
+    margin: 0;
+} 
+
+.m-seo-footer p  { 
+    margin: 0; 
+    padding: 0;
+} 
+
+a { 
+    color: #333; 
+    text-decoration: none;
+} 
+
+.m-seo-footer a  { 
+    color: #666; 
+    text-decoration: none;
+} 
+
+.m-seo-footer a:hover { 
+    text-decoration: underline;
+} 
+
+

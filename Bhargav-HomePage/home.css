@@ -4,6 +4,60 @@
 @import url('https://fonts.cdnfonts.com/css/sf-ui-text-2?styles=17879,17880,17875,17876,17877,17878,17881,17882,17871,17872,17873,17874');
 
 
+@font-face { 
+    font-family:Trip Geom;
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.d2c7fca737ec10dbe984727e847e2048.eot?t=1684398294023);
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.d2c7fca737ec10dbe984727e847e2048.eot?t=1684398294023#iefix) format("embedded-opentype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.9e9e0eb59209311df954413ff4957cbb.woff2?t=1684398294023) format("woff2"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.e1ffc04f118b039770cd5d9cfb692c39.woff?t=1684398294023) format("woff"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.d3f7654e192b14a59b1b2ebb3843d77c.ttf?t=1684398294023) format("truetype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Bold.24e583596080147b56d411a7fa82cfa6.svg?t=1684398294023) format("svg");
+    font-weight:600 700;
+    font-weight:700;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Trip Geom;
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.37edc106b493abeae851e30be2ea25eb.eot?t=1684398294023);
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.37edc106b493abeae851e30be2ea25eb.eot?t=1684398294023#iefix) format("embedded-opentype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.c01bb95e18e1b0d0137ff80b79b97a38.woff2?t=1684398294023) format("woff2"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.5dbaa8ef713d97651289bd6c83942e25.woff?t=1684398294023) format("woff"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.7c03e754eb34c4747bf0b87dfeba0ce9.ttf?t=1684398294023) format("truetype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Medium.c7feeb9868059f0a55b16d9eca9ae507.svg?t=1684398294023) format("svg");
+    font-weight:500;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:Trip Geom;
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.8eb2bf92277fd3bca27bc2fcb01683c0.eot?t=1684398294023);
+    src:url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.8eb2bf92277fd3bca27bc2fcb01683c0.eot?t=1684398294023#iefix) format("embedded-opentype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.ba9c64b894f5e19551d23b37a07ba0a4.woff2?t=1684398294023) format("woff2"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.e614e4cf6f24547aeb01ebe31a206df0.woff?t=1684398294023) format("woff"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.ef75d05fa74feb48b0a393793f43bfa4.ttf?t=1684398294023) format("truetype"),url(https://ak-s.tripcdn.com/modules/ibu/online-assets/TripGeom-Regular.6502eea3ff5d0428c7aa92302b86da01.svg?t=1684398294023) format("svg");
+    font-weight:400;
+    font-display:swap;
+  } 
+    body {  
+      font-family:BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+      background:#fff;
+      font-size:12px;
+    }  
+  * { 
+      font-family: BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  } 
+  
+  * { 
+      font-family: Trip Geom,BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  } 
+  
+  * { 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  body { 
+      font-family: BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  } 
+  
+  body { 
+      margin: 0; 
+      padding: 0; 
+      font-size: 12px;
+  } 
+  
+  body { 
+      font-family: Trip Geom,BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif!important;
+  } 
+  
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -58,6 +112,8 @@ nav{
 .search input{
     width: 15rem;
 }
+
+
 .header-top{
     width: 100%;
     height: 3rem;
@@ -148,6 +204,46 @@ nav{
     width: 75%;
     
 }
+.below-header ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+.below-header li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+.below-header  a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.below-header a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.25s ease-out;
+  width: 0;
+}
+
+.below-header a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
 .below-header .pages{
     display: flex;
     flex-direction: row;
@@ -157,13 +253,46 @@ nav{
 .below-header .pages  .page  p a{
     text-decoration: none;
     color: var(--header-color);
+   
+   
 
 }
-.below-header .pages  .page  p:hover{
-    color: var(--white);
+@media screen and (max-width: 900px){ 
+    .below-header .pages .page .p2 {
+      display: none;
+    }
+  }
+ 
+
+.below-header .pages  .page  a:hover{
+    color: white;
 
 }
 
+.below-header .pages .page p{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+
+  }
+  
+  .below-header .pages .page p::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  below-header .pages .page p :hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 .header{
  margin: 0 30px;
 }
@@ -1052,31 +1181,8 @@ p {
     left: 7px;  
     top: 30px;  
 }  
-.main-2{
-    position: relative;
-    left: 0;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    background-color: rgb(255, 255, 255);
-    padding: 1rem 10rem;
-    width: 100%;
 
-}
-.main-2 .A-a .promotion{
-    
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-    
-}
-
-.main-2 .A-a .promotion {
-    width: 100%;
-    border-radius: 10px;
-    
-}
 
 .promotion.image-box {
     position: relative;
@@ -1241,12 +1347,7 @@ a {
     
 }
 
-.marquee-single  .blocks-window  { 
-    width: 100%; 
-    display: inline-flex; 
-    box-sizing: border-box; 
-    overflow: hidden;
-} 
+
 
 .online-item .online-item-link .online-advertize-item-image  { 
     display: inline-block; 
@@ -1266,23 +1367,13 @@ a {
     transform: scale(1.1);
 }
 
-.marquee-single .blocks-window .blocks-belt  { 
-    width: 100%; 
-    overflow: visible; 
-    display: inline-block; 
-    box-sizing: border-box; 
-    white-space: nowrap; 
-    transition: all .8s;
-} 
+
 
 .home-inner{
     margin-top: 80px;
 }
 
-.marquee-single .blocks-window .blocks-belt .block-con  { 
-    display: inline-block; 
-    box-sizing: content-box;
-} 
+
 
 .online-advertize-item  { 
     display: block; 
