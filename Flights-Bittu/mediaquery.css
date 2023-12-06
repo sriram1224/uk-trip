@@ -4,17 +4,41 @@
     }
     .Hamburger{
         display: inline;
-        
+        font-size: larger;
     }
     .Top_Part{
         padding: 10px;
 }  .logo{
-    width: 4em;
-    height: 2em;
+    width: 7em;
+    height: 5em;
    }
    .Bottom_Part h1{
     font-size: 25px;
    }
+   .dropdown,.date_select{
+    display: none;
+   }
+   .searchbox_Bottom_part{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   }
+   .searchbox_Bottom_part input{
+    width: auto;
+    margin: 0px 13px 0px 13px;
+   }
+   .second_searchbox_Bottom_part_border{
+    display: none;
+   }
+   .second_searchbox_Bottom_part button{
+       padding: 5px 5px 5px 5px;
+       height: max-content;
+       font-size: 15px;
+   }
+   .second_searchbox_Bottom_part{
+      margin-top: -15px;
+   }
+
    .Box_section1{
     flex-direction: column;
    }
@@ -94,6 +118,9 @@
   .list_section7{
     display: none;
   }
+  .check_button{
+    display: none;
+}
   .img_li_box1_first_footer_part{
     width: 20px;
     height: 20px;
@@ -114,10 +141,10 @@
   }
   .payment_method{
     width: 140px;
-    margin-left: -30px;
+    margin-left: -60px;
   }
   .our_partners{
-    margin-left: -30px;
+    margin-left: -60px;
   }
   .part1_second_footer_part p{
     font-size: 12px;
