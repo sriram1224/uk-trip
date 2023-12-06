@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="ic_back_ios" unicode="&#59264;" d="M380.330667 384l384 384L704 828.330667 259.669333 384 704-60.33066699999995 764.330667 0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="ic_more" unicode="&#59269;" d="M643.669333 384l-384-384L320-60.33066699999995 764.330667 384 320 828.330667 259.669333 768z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
