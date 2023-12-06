@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/roboto');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -29,6 +30,7 @@
 .logo{
     width: 8em;
     height: 9em;
+    cursor: pointer;
 }
 .flag{
     width:25px;
@@ -54,18 +56,34 @@
 .nav ul li{
     /* border: 2px solid black; */
     width: max-content;
+    position: relative;
 }
-.nav ul li:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    color: white;
+.nav ul a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
 }
-.active_nav{
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 7px;
+.active{
     color: white;
+    font-weight:600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.nav ul li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+  }
+.nav ul li:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    cursor: pointer;
 }
 .right_section{
     color: white;
@@ -146,7 +164,8 @@
     flex-direction: column;
     gap: 20px;
     flex-wrap: wrap;
-    position: static;
+    top: 60px;
+    
 }
 .radio_check_buttons{
     display: flex;
@@ -163,8 +182,6 @@
 .searchbox_Bottom_part{
     display: flex;
     justify-content: space-evenly;
-    
-    
 }
 .searchbox_Bottom_part input{
    width: 23%;
